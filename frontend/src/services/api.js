@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000", 
+  baseURL: "https://student-job-tracker-d3qj.onrender.com", 
 });
 
 export const fetchJobs = () => API.get("/job");
